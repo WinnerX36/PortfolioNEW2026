@@ -9,8 +9,8 @@ window.PortfolioI18n = (() => {
 
   const I18N = {
     en: {
-      'meta.title': 'Wuttiphong Butta — Software Engineer',
-      'meta.description': 'Portfolio of Wuttiphong Butta — AI systems, a self-trained open-weights LLM, an accounting pipeline that corrects and validates data before QuickBooks and issues receipts automatically, RAG chatbots and search visibility work across SEO, GEO and AEO.',
+      'meta.title': 'Wuttiphong Butta (วุฒิพงษ์ บุตตา) — Software Engineer',
+      'meta.description': 'Portfolio of Wuttiphong Butta (วุฒิพงษ์ บุตตา, โพสต์อิท) — AI systems, a self-trained open-weights LLM, an accounting pipeline that corrects and validates data before QuickBooks and issues receipts automatically, RAG chatbots and search visibility work across SEO, GEO and AEO.',
       'skip': 'Skip to work',
       'nav.primary': 'Primary',
       'nav.language': 'Language',
@@ -18,6 +18,8 @@ window.PortfolioI18n = (() => {
       'nav.experience': 'Experience',
       'nav.activities': 'Activities',
       'nav.about': 'About',
+      'nav.aboutMe': 'About me',
+      'nav.sportStory': 'Sport story',
       'nav.contact': 'Contact',
       'nav.sports': 'Sport',
       'nav.menu': 'Menu',
@@ -138,19 +140,19 @@ window.PortfolioI18n = (() => {
       'act.bulls.f3': 'Idea to launch',
       'act.bulls.f4': 'Building the tools',
       'act.bulls.back': 'What we push through in the arena comes back as practice — a working method for turning a club conversation into a launched project, used in the work at Give Education and Aquatots Thailand.',
-      'act.sports.period': '2026',
-      'act.sports.type': 'Sports & athletics',
-      'act.sports.place': 'Thailand',
-      'act.sports.name': 'Sports & athletics achievements',
-      'act.sports.role': 'AI & Technology Specialist',
-      'act.sports.desc': 'National-level TaeKwonDo competitions, university games, and representing province in basketball and village-level events.',
-      'act.sports.f1': 'TaeKwonDo — Chumporn-Ranong Youth Games (33rd National, Runner-up 2nd place)',
-      'act.sports.f2': 'TaeKwonDo — Kanchanaburi Games (35th, Runner-up 2nd)',
-      'act.sports.f3': 'TaeKwonDo — Thailand Championship (Cadet category, 4th place)',
-      'act.sports.f4': 'TaeKwonDo — University games & province representative',
-      'act.sports.back': 'Sports discipline has strengthened focus, resilience and teamwork — skills carried into every technical project.',
       'sports.title': 'Sport',
-      'sports.hint': 'National-level TaeKwonDo competitions, university games, and representing province in basketball and village-level events.',
+      'story.kicker': 'About · Sport',
+      'story.lead': 'I was a rising TaeKwonDo prospect on track for the national team.',
+      'story.p1': 'Two national podiums came first: runner-up at the 33rd National Youth Games in Chumporn-Ranong and at the 35th Kanchanaburi Games, then 4th place at the Thailand Championship in the cadet category.',
+      'story.p2': 'A left-knee injury ended that run before I made the national team.',
+      'story.p3': 'I stayed in sport. I represented Bangkok University at the university games, played provincial-level basketball for Lopburi, and worked as an assistant coach with teams from Singapore, China and Taiwan.',
+      'story.p4': 'Losing that shot taught me what I still use in engineering: rebuild after a setback, keep training the basics, and make the team around you better.',
+      'story.s1': 'National podiums',
+      'story.s2': 'Thailand Championship, cadet',
+      'story.s3': 'Countries coached',
+      'story.title': 'My TaeKwonDo story',
+      'story.back': '← Back to sport results',
+      'story.meta': 'About — Wuttiphong Butta (วุฒิพงษ์ บุตตา)',
       'sports.period1': '2026',
       'sports.type1': 'TaeKwonDo',
       'sports.name1': 'Chumporn-Ranong Youth Games (33rd National)',
@@ -170,7 +172,7 @@ window.PortfolioI18n = (() => {
       'sports.period5': '2026',
       'sports.type5': 'Basketball',
       'sports.name5': 'Provincial representative',
-      'sports.desc5': 'Lpai province at village-level basketball events',
+      'sports.desc5': 'Represented Lopburi province in provincial-level basketball',
       'sports.period13': '2026',
 
 'sports.type13': 'Coaching',
@@ -189,10 +191,10 @@ window.PortfolioI18n = (() => {
 
 'about.title': 'About',
       'about.hint': 'Software engineer — AI systems, internal platforms and the web.',
-      'about.lead': 'I build software that has to hold up in production.',
-      'about.p1': 'Most of my work sits between the model and the product: an OCR pipeline that reads Thai invoices, a platform that replaced four internal tools, STQ Orbit where accounting data is corrected and validated before it reaches QuickBooks and receipts are issued automatically, a chatbot that answers with sources instead of guesses, and a reasoning model I trained myself on Thai data — then published as open weights.',
-      'about.p2': 'I care about the unglamorous parts — response time under load, inference cost per document, a schema that still makes sense a year later, and an interface that loads on a slow connection.',
-      'about.tools': 'Python · TypeScript · FastAPI · PyTorch · PostgreSQL · Docker · React · Next.js',
+      'about.lead': 'Computer Science graduate who ships full-stack and AI systems that real teams use every day.',
+      'about.p1': 'I work end to end, from backend APIs and cloud deployment to the interface. At Smarterware I fine-tuned Typhoon OCR with LoRA to read Thai invoices at 98.88% accuracy and cut manual processing time by 80%. At Give Education I built the billing and cash-tracking platform for Aquatots Thailand, with QuickBooks sync, automatic receipts and Cashtoday for real-time revenue. I also trained QwenMythos, a 4B reasoning model, and published it as open weights.',
+      'about.p2': 'I care about the parts users never see: clean data before it reaches accounting, test scenarios that catch bugs before UAT, and a deployment that keeps running after handover.',
+      'about.tools': 'Python · TypeScript · React · Next.js · Node.js · FastAPI · PostgreSQL · Docker · AWS SageMaker · Hugging Face',
       'cap.1': 'AI & Machine Learning', 'cap.1t': 'Models',
       'cap.2': 'Backend & APIs', 'cap.2t': 'Backend',
       'cap.3': 'Platform & DevOps', 'cap.3t': 'Infra',
@@ -202,14 +204,13 @@ window.PortfolioI18n = (() => {
       'contact.kicker': '05 — Contact',
       'contact.title': 'Let’s build something that works.',
       'contact.body': 'Open to software engineering work on AI systems, platforms and web products. Tell me what you are building and where it is stuck.',
-      'contact.note': 'Outcome copy for AI OCR, ORBIT, AI Chatbot (RAG) and SEO is still sample — edit assets/js/i18n.js to make it yours',
       'foot.city': 'Thailand',
       'foot.render': 'Plain HTML, CSS and JavaScript',
       'foot.top': 'Back to top ↑'
     },
     th: {
-      'meta.title': 'Wuttiphong Butta — วิศวกรซอฟต์แวร์',
-      'meta.description': 'ผลงานของ Wuttiphong Butta — ระบบ AI โมเดล LLM เปิดน้ำหนักที่เทรนเอง ระบบที่แก้ไขและตรวจสอบข้อมูลก่อนส่งเข้า QuickBooks และออกใบเสร็จอัตโนมัติ แชทบอท RAG และงานค้นหาแบบ SEO, GEO และ AEO',
+      'meta.title': 'วุฒิพงษ์ บุตตา (โพสต์อิท) — วิศวกรซอฟต์แวร์ | Wuttiphong Butta',
+      'meta.description': 'ผลงานของ วุฒิพงษ์ บุตตา (โพสต์อิท, Wuttiphong Butta) — ระบบ AI โมเดล LLM เปิดน้ำหนักที่เทรนเอง ระบบที่แก้ไขและตรวจสอบข้อมูลก่อนส่งเข้า QuickBooks และออกใบเสร็จอัตโนมัติ แชทบอท RAG และงานค้นหาแบบ SEO, GEO และ AEO',
       'skip': 'ข้ามไปยังผลงาน',
       'nav.primary': 'เมนูหลัก',
       'nav.language': 'ภาษา',
@@ -217,6 +218,8 @@ window.PortfolioI18n = (() => {
       'nav.experience': 'ประสบการณ์',
       'nav.activities': 'กิจกรรม',
       'nav.about': 'เกี่ยวกับ',
+      'nav.aboutMe': 'เกี่ยวกับผม',
+      'nav.sportStory': 'เรื่องราวด้านกีฬา',
       'nav.contact': 'ติดต่อ',
       'nav.sports': 'กีฬา',
       'nav.menu': 'เมนู',
@@ -337,19 +340,19 @@ window.PortfolioI18n = (() => {
       'act.bulls.f3': 'จากไอเดียสู่การเปิดตัว',
       'act.bulls.f4': 'ลงมือทำเครื่องมือ',
       'act.bulls.back': 'สิ่งที่เราผลักดันผ่านในอารีนา กลับมาเป็นประสบการณ์ใช้งาน วิธีเปลี่ยนบทสนทนาในคลับให้เป็นโปรเจกต์ที่เปิดใช้งานจริง แล้วนำไปใช้กับงานที่ Give Education and Aquatots Thailand',
-      'act.sports.period': '2026',
-      'act.sports.type': 'Sports & athletics',
-      'act.sports.place': 'ประเทศไทย',
-      'act.sports.name': 'ผลงานกีฬาและกิจกรรม',
-      'act.sports.role': 'ผู้เชี่ยวชาญ AI และเทคโนโลยี',
-      'act.sports.desc': 'การแข่งขันเทควันโดระดับชาติ งานกีฬาในมหาวิทยาลัย และการแทนจังหวัดในบาสเก็ตบอลและกิจกรรมชนบท',
-      'act.sports.f1': 'เทควันโด — ชมรมเยาวชนชุมพร-ระนอง (อันดับ 33 รัฐบาล นอกรัฐบาลอันดับ 2)',
-      'act.sports.f2': 'เทควันโด — กาญจนบุรีเกมส์ (อันดับ 35 รองชนะเลิศอันดับ 2)',
-      'act.sports.f3': 'เทควันโด — ชิงแชมป์ประเทศไทย รุ่นคาเด็ท อันดับ 4',
-      'act.sports.f4': 'เทควันโด — เกมส์มหาวิทยาลัยและตัวแทนจังหวัด',
-      'act.sports.back': 'วินัยจากกีฬาช่วยเพิ่มโฟกัสและความพยายาม — ทักษะที่นำไปใช้ในทุกโปรเจกต์เทคนิค',
       'sports.title': 'กีฬา',
-      'sports.hint': 'การแข่งขันเทควันโดระดับชาติ งานกีฬาในมหาวิทยาลัย และการแทนจังหวัดในบาสเก็ตบอลและกิจกรรมชนบท',
+      'story.kicker': 'เกี่ยวกับ · กีฬา',
+      'story.lead': 'ผมเคยเป็นดาวรุ่งเทควันโดที่มีโอกาสติดทีมชาติ',
+      'story.p1': 'เริ่มจากโพเดียมระดับชาติ 2 ครั้ง รองชนะเลิศกีฬาเยาวชนแห่งชาติครั้งที่ 33 ชุมพร-ระนอง และกาญจนบุรีเกมส์ครั้งที่ 35 จากนั้นติดอันดับ 4 ชิงแชมป์ประเทศไทยรุ่นคาเด็ต',
+      'story.p2': 'อาการบาดเจ็บที่เข่าซ้ายทำให้พลาดโอกาสติดทีมชาติไป',
+      'story.p3': 'ผมไม่ได้ทิ้งกีฬา ยังเป็นตัวแทนมหาวิทยาลัยกรุงเทพในกีฬามหาวิทยาลัย เป็นตัวแทนจังหวัดลพบุรีในบาสเกตบอลระดับจังหวัด และเป็นผู้ช่วยโค้ชให้ทีมจากสิงคโปร์ จีน และไต้หวัน',
+      'story.p4': 'การพลาดโอกาสครั้งนั้นสอนสิ่งที่ยังใช้ในงานวิศวกรรมทุกวัน คือลุกขึ้นใหม่หลังล้ม ซ้อมพื้นฐานให้แน่น และทำให้ทีมรอบตัวดีขึ้น',
+      'story.s1': 'โพเดียมระดับชาติ',
+      'story.s2': 'ชิงแชมป์ประเทศไทย รุ่นคาเด็ต',
+      'story.s3': 'ประเทศที่เคยร่วมโค้ช',
+      'story.title': 'เส้นทางเทควันโดของผม',
+      'story.back': '← กลับไปดูผลงานกีฬา',
+      'story.meta': 'เกี่ยวกับ — วุฒิพงษ์ บุตตา (โพสต์อิท)',
       'sports.period1': '2026',
       'sports.type1': 'เทควันโด',
       'sports.name1': 'ชมรมเยาวชนชุมพร-ระนอง (ครั้งที่ 33 ระดับชาติ)',
@@ -380,10 +383,10 @@ window.PortfolioI18n = (() => {
       'sports.desc15': 'รางวัลนักกีฬายอดเยี่ยม (MVP) หลายรายการ จากการแข่งขันระดับจังหวัดและระดับประเทศ',
       'about.title': 'เกี่ยวกับ',
       'about.hint': 'วิศวกรซอฟต์แวร์ — ระบบ AI แพลตฟอร์มภายใน และเว็บ',
-      'about.lead': 'ผมสร้างซอฟต์แวร์ที่ต้องทนได้ในระบบจริง',
-      'about.p1': 'งานส่วนใหญ่ของผมอยู่ระหว่างโมเดลกับผลิตภัณฑ์ ไปป์ไลน์ OCR ที่อ่านใบเสร็จภาษาไทย แพลตฟอร์มที่แทนที่เครื่องมือภายในสี่ตัว STQ Orbit ที่แก้ไขและตรวจสอบข้อมูลบัญชีก่อนส่งเข้า QuickBooks และออกใบเสร็จให้อัตโนมัติ แชทบอทที่ตอบพร้อมแหล่งอ้างอิงแทนการเดา และโมเดลเหตุผลที่ผมเทรนเองด้วยข้อมูลภาษาไทย แล้วเปิดเผยเป็นน้ำหนักโมเดล',
-      'about.p2': 'ผมสนใจส่วนที่ไม่หวือหวา เช่น เวลาตอบสนองเมื่อระบบรับโหลด ต้นทุนการประมวลผลต่อเอกสาร โครงสร้างข้อมูลที่ยังมีความหมายหลังผ่านไปหนึ่งปี และอินเทอร์เฟซที่โหลดได้แม้เน็ตช้า',
-      'about.tools': 'Python · TypeScript · FastAPI · PyTorch · PostgreSQL · Docker · React · Next.js',
+      'about.lead': 'บัณฑิตวิทยาการคอมพิวเตอร์ ที่สร้างระบบ full-stack และ AI ให้ทีมจริงใช้งานทุกวัน',
+      'about.p1': 'ผมทำงานครบวงจร ตั้งแต่ backend API และการ deploy บนคลาวด์ ไปจนถึงหน้าจอที่ผู้ใช้เห็น ที่ Smarterware ผม fine-tune Typhoon OCR ด้วย LoRA ให้อ่านใบแจ้งหนี้ภาษาไทยได้แม่นยำ 98.88% และลดเวลาทำงานด้วยมือลง 80% ที่ Give Education ผมสร้างระบบออกบิลและติดตามเงินสดให้ Aquatots Thailand เชื่อม QuickBooks ออกใบเสร็จอัตโนมัติ และมี Cashtoday ดูรายได้แบบเรียลไทม์ นอกจากนี้ยังเทรน QwenMythos โมเดลให้เหตุผลขนาด 4B และเผยแพร่เป็น open weights',
+      'about.p2': 'ผมใส่ใจส่วนที่ผู้ใช้มองไม่เห็น ข้อมูลที่สะอาดก่อนถึงฝ่ายบัญชี test scenario ที่จับบั๊กได้ก่อน UAT และระบบที่ยังรันได้ดีหลังส่งมอบ',
+      'about.tools': 'Python · TypeScript · React · Next.js · Node.js · FastAPI · PostgreSQL · Docker · AWS SageMaker · Hugging Face',
       'cap.1': 'AI และการเรียนรู้ของเครื่อง', 'cap.1t': 'โมเดล',
       'cap.2': 'แบ็กเอนด์และ API', 'cap.2t': 'แบ็กเอนด์',
       'cap.3': 'แพลตฟอร์มและ DevOps', 'cap.3t': 'โครงสร้างพื้นฐาน',
@@ -393,7 +396,6 @@ window.PortfolioI18n = (() => {
       'contact.kicker': '05 — ติดต่อ',
       'contact.title': 'มาสร้างสิ่งที่ใช้งานได้จริงกันเถอะ',
       'contact.body': 'เปิดรับงานวิศวกรรมซอฟต์แวร์ ทั้งระบบ AI แพลตฟอร์ม และเว็บโปรดักต์ เล่าให้ฟังว่าคุณกำลังสร้างอะไร และติดอยู่ตรงไหน',
-      'contact.note': 'ผลลัพธ์ของ AI OCR, ORBIT, AI Chatbot (RAG) และ SEO ยังเป็นตัวอย่าง — แก้ไฟล์ assets/js/i18n.js เพื่อใส่ข้อมูลจริงของคุณ',
       'foot.city': 'ประเทศไทย',
       'foot.render': 'HTML, CSS และ JavaScript ล้วน ๆ',
       'foot.top': 'กลับขึ้นด้านบน ↑'
@@ -419,11 +421,12 @@ window.PortfolioI18n = (() => {
     lang = (next === 'th') ? 'th' : 'en';
     const t = dict();
     document.documentElement.lang = lang;
-    document.title = t['meta.title'];
+    const titleKey = document.body.dataset.titleKey || 'meta.title';
+    document.title = t[titleKey];
     if(metaDesc) metaDesc.setAttribute('content', t['meta.description']);
-    setMeta('meta[property="og:title"]', 'content', t['meta.title']);
+    setMeta('meta[property="og:title"]', 'content', t[titleKey]);
     setMeta('meta[property="og:description"]', 'content', t['meta.description']);
-    setMeta('meta[name="twitter:title"]', 'content', t['meta.title']);
+    setMeta('meta[name="twitter:title"]', 'content', t[titleKey]);
     setMeta('meta[name="twitter:description"]', 'content', t['meta.description']);
     setMeta('meta[property="og:locale"]', 'content', lang === 'th' ? 'th_TH' : 'en_US');
     Array.prototype.forEach.call(document.querySelectorAll('[data-i18n]'), (el) => {

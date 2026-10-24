@@ -21,7 +21,7 @@ import (
 	"time"
 )
 
-//go:embed index.html assets
+//go:embed index.html about.html assets
 var content embed.FS
 
 func main() {

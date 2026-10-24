@@ -1,9 +1,10 @@
-# Wuttiphong Butta
+# Wuttiphong Butta (วุฒิพงษ์ บุตตา)
 
-> Software engineer in Thailand building AI systems, internal platforms and web products. Open to work. Contact: wuttiphong4work@gmail.com
+> Thai name: วุฒิพงษ์ บุตตา, nickname โพสต์อิท (Post-it). Software engineer in Thailand building AI systems, internal platforms and web products. Open to work. Contact: wuttiphong4work@gmail.com
 
 ## Site
 - [Portfolio](https://wuttiphongbutta.netlify.app/): Work, experience, activities, sport, about and contact (English and Thai)
+- [About / TaeKwonDo story](https://wuttiphongbutta.netlify.app/about.html): Rising TaeKwonDo prospect, national-team shot lost to a left-knee injury
 - [Full text](https://wuttiphongbutta.netlify.app/llms-full.txt): Full portfolio content for LLMs
 
 ## Projects
@@ -17,3 +18,17 @@
 ## Experience
 - AI & Technology Specialist, Give Education and Aquatots Thailand (2026, full-time)
 - [AI Engineer (Intern), Smarterware Co., Ltd.](https://www.smarterware.co.th/) (2026, Nonthaburi)
+
+## Sport
+- TaeKwonDo: rising prospect on track for the national team until a left-knee injury; runner-up at the 33rd National Youth Games (Chumporn-Ranong) and the 35th Kanchanaburi Games; 4th place, Thailand Championship (Cadet)
+- Represented Bangkok University at University games Thammasat; Lopburi province basketball representative
+- Assistant coach with teams from Singapore, China and Taiwan; best athlete / MVP honours
+
+## Links
+- [Resume (PDF)](https://wuttiphongbutta.netlify.app/assets/Resume_WuttiphongButta.pdf)
+- [LinkedIn](https://www.linkedin.com/in/wuttiphong-butta)
+- [GitHub](https://github.com/WinnerX36)
+- [Ruvion-Nok Daeng](https://ruvionnokdaeng.vercel.app/): Startup founded by Wuttiphong Butta (founder)
+- [Fastwork profile](https://fastwork.com/th/user/wuttiphongbutta): Freelance services
+- [Facebook](https://www.facebook.com/wuttiphong.butta.2024/)
+- [Hugging Face](https://huggingface.co/Wuttiphong23)

@@ -1,6 +1,6 @@
-# Wuttiphong Butta — Software Engineer
+# Wuttiphong Butta (วุฒิพงษ์ บุตตา) — Software Engineer
 
-> Software engineer in Thailand building AI systems, internal platforms and web products — from the model behind the API to the interface people use. Status: open to work. Focus: AI, platform, web.
+> Thai name: วุฒิพงษ์ บุตตา, nickname โพสต์อิท (Post-it). Software engineer in Thailand building AI systems, internal platforms and web products — from the model behind the API to the interface people use. Status: open to work. Focus: AI, platform, web.
 
 Site: https://wuttiphongbutta.netlify.app/
 Email: wuttiphong4work@gmail.com
@@ -59,13 +59,24 @@ https://creativetalkconference.com/8-pitching-techniques-win-investors-bulls-are
 Project team inside H.O.W. Bull's Arena Pitching Day: eight ventures pitch to six national-level coaches and investors. Role: shaping the project, building the technology, helping the team ship.
 
 ## Sport
+Rising TaeKwonDo prospect with a shot at the national team, missed because of a left-knee injury.
 - TaeKwonDo — Chumporn-Ranong Youth Games (33rd National): runner-up, 2nd place
 - TaeKwonDo — Kanchanaburi Games (35th): runner-up, 2nd place
 - TaeKwonDo — Thailand Championship (Cadet): 4th place
 - University games Thammasat: represented Bangkok University
-- Basketball: provincial representative at village-level events
+- Basketball: Lopburi province representative in provincial-level competition
 - Assistant coach with teams from Singapore, China and Taiwan
 - Best athlete / MVP honours across provincial and national competitions
 
 ## Skills
 Python, TypeScript, FastAPI, PyTorch, PostgreSQL, Docker, React, Next.js. Areas: AI and machine learning, backend and APIs, platform and DevOps, data and search, front-end and UX, SEO/GEO/AEO.
+
+## Links
+- [About / TaeKwonDo story](https://wuttiphongbutta.netlify.app/about.html)
+- [Resume (PDF)](https://wuttiphongbutta.netlify.app/assets/Resume_WuttiphongButta.pdf)
+- [LinkedIn](https://www.linkedin.com/in/wuttiphong-butta)
+- [GitHub](https://github.com/WinnerX36)
+- [Ruvion-Nok Daeng](https://ruvionnokdaeng.vercel.app/): Startup founded by Wuttiphong Butta (founder)
+- [Fastwork profile](https://fastwork.com/th/user/wuttiphongbutta): Freelance services
+- [Facebook](https://www.facebook.com/wuttiphong.butta.2024/)
+- [Hugging Face](https://huggingface.co/Wuttiphong23)
