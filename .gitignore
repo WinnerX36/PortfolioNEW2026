@@ -1,0 +1,12 @@
+# backups
+*.bak
+
+# OS / editor noise
+Thumbs.db
+.DS_Store
+desktop.ini
+.idea/
+.vscode/
+
+# deps
+node_modules/
