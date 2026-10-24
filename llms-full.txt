@@ -17,8 +17,9 @@ Languages: English, Thai
 
 ### AI OCR — document intelligence (2026)
 - Role: AI Engineer
-- Approach: Layout detection before recognition; a fine-tuned vision model served behind a job queue.
-- Stack: PyTorch, CUDA, OCR
+- Approach: Fine-tuned Typhoon OCR with LoRA adapters through Unsloth; served with FastAPI and Docker on AWS SageMaker.
+- Outcome: 98.88% text-extraction accuracy on Thai invoices and 80% less manual processing time.
+- Stack: Typhoon OCR, LoRA, Unsloth, FastAPI, Docker, AWS SageMaker
 
 ### STQ Orbit — data pipeline to QuickBooks (2026)
 - Role: AI & Technology Specialist
@@ -27,17 +28,19 @@ Languages: English, Thai
 
 ### ORBIT Platform — internal platform (2026)
 - Role: AI & Technology Specialist
-- Approach: Event-driven services, a schema registry and a typed SDK for every consumer.
+- Approach: Shared services with one schema and a typed SDK so every internal tool uses the same data.
 - Stack: TypeScript, Kubernetes, PostgreSQL
 
 ### AI Chatbot (RAG) — retrieval-augmented assistant (2026)
 - Role: AI & Technology Specialist
-- Approach: Hybrid retrieval with a reranker and a citation attached to every answer.
-- Stack: RAG, embeddings, FastAPI
+- Approach: AI chatbot on LINE OA for Aquatots Swimming School Pinkalo, connected to backend services and automated workflows.
+- Outcome: FAQs, service information and customer support answered automatically.
+- Stack: LINE OA API, RAG, automation
 
 ### SEO · GEO · AEO — search, generative and answer engines (2026)
 - Role: AI & Technology Specialist
-- Approach: Technical audit, answer-engine markup, structured data, performance budget enforced in CI.
+- Approach: Freelance technical SEO, GEO and AEO audits, structured data and AI search intelligence tools.
+- Outcome: Better visibility and ranking trends for clients across Google and AI search.
 
 ## Work experience
 
@@ -67,6 +70,58 @@ Rising TaeKwonDo prospect with a shot at the national team, missed because of a 
 - Basketball: Lopburi province representative in provincial-level competition
 - Assistant coach with teams from Singapore, China and Taiwan
 - Best athlete / MVP honours across provincial and national competitions
+
+<!-- faq:start -->
+## FAQ
+
+### Who is Wuttiphong Butta (วุฒิพงษ์ บุตตา)?
+Wuttiphong Butta (Thai: วุฒิพงษ์ บุตตา, nickname โพสต์อิท) is a software engineer in Bangkok, Thailand. He is a Computer Science graduate of Bangkok University (2026) and works as AI & Technology Specialist at Give Education, building full-stack and AI systems.
+
+### What does Wuttiphong Butta build?
+He builds production web apps and AI systems end to end: a billing and cash-tracking platform with QuickBooks sync for Aquatots Thailand, an AI OCR system for Thai invoices, a LINE OA chatbot, and QwenMythos, a 4B open-weight reasoning model. His stack includes React, Next.js, Node.js, FastAPI, Docker and AWS.
+
+### What is QwenMythos?
+QwenMythos is a 4B-parameter open-weight reasoning model built by Wuttiphong Butta. It uses a looped (Recurrent-Depth) transformer fine-tuned from a Qwen base on a curated Thai reasoning dataset, and ships as safetensors and a Q4_K_M GGUF that runs locally with llama.cpp or Ollama.
+
+### What was the AI OCR project at Smarterware?
+During his internship at Smarterware Co., Ltd. (a member of SAMART TELCOMS), Wuttiphong fine-tuned Typhoon OCR with LoRA adapters through Unsloth. The system reached 98.88% text-extraction accuracy on Thai invoices, cut manual processing time by 80%, and was deployed with FastAPI, Docker and AWS SageMaker.
+
+### What is Ruvion-Nok Daeng?
+Ruvion-Nok Daeng is a startup founded by Wuttiphong Butta. Its website is ruvionnokdaeng.vercel.app.
+
+### Does Wuttiphong Butta offer SEO, GEO and AEO work?
+Yes. He works as a freelance consultant on technical SEO, GEO (generative engine optimisation) and AEO (answer engine optimisation): audits, structured data and AI search intelligence tools. He takes freelance work through Fastwork and by email.
+
+### What is Wuttiphong Butta's sports background?
+He was a rising TaeKwonDo prospect with two national podiums (runner-up at the 33rd National Youth Games and the 35th Kanchanaburi Games) and 4th place at the Thailand Championship (cadet). A left-knee injury ended his shot at the national team. He later represented Bangkok University and Lopburi province in basketball, and coached alongside teams from Singapore, China and Taiwan.
+
+### How can I contact or hire Wuttiphong Butta?
+Email wuttiphong4work@gmail.com, or reach him on LinkedIn (linkedin.com/in/wuttiphong-butta) or Fastwork. He is open to software engineering work on AI systems, platforms and web products.
+
+### วุฒิพงษ์ บุตตา คือใคร
+วุฒิพงษ์ บุตตา (Wuttiphong Butta) ชื่อเล่นโพสต์อิท เป็นวิศวกรซอฟต์แวร์ในกรุงเทพฯ จบวิทยาการคอมพิวเตอร์ มหาวิทยาลัยกรุงเทพ ปี 2026 ปัจจุบันเป็น AI & Technology Specialist ที่ Give Education สร้างระบบ full-stack และระบบ AI
+
+### วุฒิพงษ์ บุตตา ทำงานด้านไหน
+สร้างเว็บแอปและระบบ AI ที่ใช้งานจริงครบวงจร ได้แก่ ระบบออกบิลและติดตามเงินสดที่เชื่อม QuickBooks ให้ Aquatots Thailand ระบบ AI OCR อ่านใบแจ้งหนี้ภาษาไทย แชทบอท LINE OA และ QwenMythos โมเดลให้เหตุผลขนาด 4B แบบ open weights ใช้ React, Next.js, Node.js, FastAPI, Docker และ AWS
+
+### QwenMythos คืออะไร
+QwenMythos คือโมเดลให้เหตุผลขนาด 4B แบบ open weights ที่วุฒิพงษ์ บุตตาสร้างเอง ใช้สถาปัตยกรรม Looped (Recurrent-Depth) Transformer ปรับจูนจาก Qwen ด้วยชุดข้อมูลการให้เหตุผลภาษาไทย เผยแพร่ทั้งไฟล์ safetensors และ GGUF แบบ Q4_K_M รันบนเครื่องตัวเองได้ผ่าน llama.cpp หรือ Ollama
+
+### โปรเจกต์ AI OCR ที่ Smarterware คืออะไร
+ช่วงฝึกงานที่ Smarterware Co., Ltd. (บริษัทในเครือ SAMART TELCOMS) วุฒิพงษ์ปรับจูน Typhoon OCR ด้วย LoRA ผ่าน Unsloth ระบบอ่านข้อความจากใบแจ้งหนี้ภาษาไทยได้แม่นยำ 98.88% ลดเวลาทำงานด้วยมือลง 80% และ deploy ด้วย FastAPI, Docker และ AWS SageMaker
+
+### Ruvion-Nok Daeng คืออะไร
+Ruvion-Nok Daeng คือสตาร์ทอัพที่วุฒิพงษ์ บุตตาเป็นผู้ก่อตั้ง เว็บไซต์คือ ruvionnokdaeng.vercel.app
+
+### รับทำ SEO, GEO และ AEO ไหม
+รับ วุฒิพงษ์รับงานฟรีแลนซ์ด้าน SEO เชิงเทคนิค GEO (การทำให้ AI ค้นเจอ) และ AEO (การทำให้ได้เป็นคำตอบ) ทั้งตรวจเว็บ ใส่ข้อมูลโครงสร้าง และเครื่องมือวิเคราะห์การค้นหาด้วย AI ติดต่อได้ทาง Fastwork หรืออีเมล
+
+### วุฒิพงษ์ บุตตา มีประวัติด้านกีฬาอย่างไร
+เคยเป็นดาวรุ่งเทควันโด ขึ้นโพเดียมระดับชาติ 2 ครั้ง (รองชนะเลิศกีฬาเยาวชนแห่งชาติครั้งที่ 33 และกาญจนบุรีเกมส์ครั้งที่ 35) และอันดับ 4 ชิงแชมป์ประเทศไทยรุ่นคาเด็ต อาการบาดเจ็บที่เข่าซ้ายทำให้พลาดโอกาสติดทีมชาติ ภายหลังเป็นตัวแทนมหาวิทยาลัยกรุงเทพ ตัวแทนจังหวัดลพบุรีในบาสเกตบอล และเป็นผู้ช่วยโค้ชให้ทีมจากสิงคโปร์ จีน และไต้หวัน
+
+### ติดต่อหรือจ้างวุฒิพงษ์ บุตตาได้อย่างไร
+อีเมล wuttiphong4work@gmail.com หรือติดต่อทาง LinkedIn (linkedin.com/in/wuttiphong-butta) และ Fastwork เปิดรับงานวิศวกรรมซอฟต์แวร์ด้านระบบ AI แพลตฟอร์ม และเว็บ
+<!-- faq:end -->
 
 ## Skills
 Python, TypeScript, FastAPI, PyTorch, PostgreSQL, Docker, React, Next.js. Areas: AI and machine learning, backend and APIs, platform and DevOps, data and search, front-end and UX, SEO/GEO/AEO.

@@ -73,6 +73,84 @@
   }
 }
 </script>
+<!-- head:start -->
+<link rel="alternate" hreflang="en" href="https://wuttiphongbutta.netlify.app/" />
+<link rel="alternate" hreflang="th" href="https://wuttiphongbutta.netlify.app/th/" />
+<link rel="alternate" hreflang="x-default" href="https://wuttiphongbutta.netlify.app/" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "inLanguage": "en",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Who is Wuttiphong Butta (วุฒิพงษ์ บุตตา)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wuttiphong Butta (Thai: วุฒิพงษ์ บุตตา, nickname โพสต์อิท) is a software engineer in Bangkok, Thailand. He is a Computer Science graduate of Bangkok University (2026) and works as AI & Technology Specialist at Give Education, building full-stack and AI systems."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does Wuttiphong Butta build?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "He builds production web apps and AI systems end to end: a billing and cash-tracking platform with QuickBooks sync for Aquatots Thailand, an AI OCR system for Thai invoices, a LINE OA chatbot, and QwenMythos, a 4B open-weight reasoning model. His stack includes React, Next.js, Node.js, FastAPI, Docker and AWS."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is QwenMythos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "QwenMythos is a 4B-parameter open-weight reasoning model built by Wuttiphong Butta. It uses a looped (Recurrent-Depth) transformer fine-tuned from a Qwen base on a curated Thai reasoning dataset, and ships as safetensors and a Q4_K_M GGUF that runs locally with llama.cpp or Ollama."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What was the AI OCR project at Smarterware?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "During his internship at Smarterware Co., Ltd. (a member of SAMART TELCOMS), Wuttiphong fine-tuned Typhoon OCR with LoRA adapters through Unsloth. The system reached 98.88% text-extraction accuracy on Thai invoices, cut manual processing time by 80%, and was deployed with FastAPI, Docker and AWS SageMaker."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Ruvion-Nok Daeng?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ruvion-Nok Daeng is a startup founded by Wuttiphong Butta. Its website is ruvionnokdaeng.vercel.app."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Wuttiphong Butta offer SEO, GEO and AEO work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. He works as a freelance consultant on technical SEO, GEO (generative engine optimisation) and AEO (answer engine optimisation): audits, structured data and AI search intelligence tools. He takes freelance work through Fastwork and by email."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Wuttiphong Butta's sports background?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "He was a rising TaeKwonDo prospect with two national podiums (runner-up at the 33rd National Youth Games and the 35th Kanchanaburi Games) and 4th place at the Thailand Championship (cadet). A left-knee injury ended his shot at the national team. He later represented Bangkok University and Lopburi province in basketball, and coached alongside teams from Singapore, China and Taiwan."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I contact or hire Wuttiphong Butta?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Email wuttiphong4work@gmail.com, or reach him on LinkedIn (linkedin.com/in/wuttiphong-butta) or Fastwork. He is open to software engineering work on AI systems, platforms and web products."
+      }
+    }
+  ]
+}
+</script>
+<!-- head:end -->
 <link rel="stylesheet" href="assets/css/fonts.css">
 <link rel="stylesheet" href="assets/css/site.css">
 </head>
@@ -181,10 +259,10 @@
           <div class="work-panel"><div><div class="work-detail">
             <dl>
               <div><dt data-i18n="work.role">Role</dt><dd data-i18n="item.aiOcr.role">AI Engineer</dd></div>
-              <div><dt data-i18n="work.approach">Approach</dt><dd data-i18n="item.aiOcr.approach">Layout detection before recognition, a fine-tuned vision model served behind a job queue</dd></div>
-              <div><dt data-i18n="work.outcome">Outcome</dt><dd data-i18n="item.aiOcr.outcome">Thai and English invoices read end to end, no manual keying</dd></div>
+              <div><dt data-i18n="work.approach">Approach</dt><dd data-i18n="item.aiOcr.approach">Fine-tuned Typhoon OCR, an open-source Thai OCR model, with LoRA adapters through Unsloth, then served it with FastAPI and Docker on AWS SageMaker</dd></div>
+              <div><dt data-i18n="work.outcome">Outcome</dt><dd data-i18n="item.aiOcr.outcome">98.88% text-extraction accuracy on Thai invoices and 80% less manual processing time</dd></div>
             </dl>
-            <div class="work-tags"><span data-i18n="item.aiOcr.t1">PyTorch</span><span data-i18n="item.aiOcr.t2">CUDA</span><span data-i18n="item.aiOcr.t3">OCR</span></div>
+            <div class="work-tags"><span data-i18n="item.aiOcr.t1">Typhoon OCR</span><span data-i18n="item.aiOcr.t2">LoRA</span><span data-i18n="item.aiOcr.t3">FastAPI</span></div>
           </div></div></div>
         </article>
 
@@ -217,8 +295,8 @@
           <div class="work-panel"><div><div class="work-detail">
             <dl>
               <div><dt data-i18n="work.role">Role</dt><dd data-i18n="item.orbit.role">AI &amp; Technology Specialist</dd></div>
-              <div><dt data-i18n="work.approach">Approach</dt><dd data-i18n="item.orbit.approach">Event-driven services, a schema registry and a typed SDK for every consumer</dd></div>
-              <div><dt data-i18n="work.outcome">Outcome</dt><dd data-i18n="item.orbit.outcome">One internal platform replacing four separate tools and one login</dd></div>
+              <div><dt data-i18n="work.approach">Approach</dt><dd data-i18n="item.orbit.approach">Shared services with one schema and a typed SDK, so every internal tool talks to the same data</dd></div>
+              <div><dt data-i18n="work.outcome">Outcome</dt><dd data-i18n="item.orbit.outcome">Internal tools for the Give Education team built on one platform instead of separate systems</dd></div>
             </dl>
             <div class="work-tags"><span data-i18n="item.orbit.t1">TypeScript</span><span data-i18n="item.orbit.t2">Kubernetes</span><span data-i18n="item.orbit.t3">PostgreSQL</span></div>
           </div></div></div>
@@ -235,10 +313,10 @@
           <div class="work-panel"><div><div class="work-detail">
             <dl>
               <div><dt data-i18n="work.role">Role</dt><dd data-i18n="item.chatbot.role">AI &amp; Technology Specialist</dd></div>
-              <div><dt data-i18n="work.approach">Approach</dt><dd data-i18n="item.chatbot.approach">Hybrid retrieval with a reranker, and a citation attached to every answer</dd></div>
-              <div><dt data-i18n="work.outcome">Outcome</dt><dd data-i18n="item.chatbot.outcome">Answers grounded in internal documents instead of confident guessing</dd></div>
+              <div><dt data-i18n="work.approach">Approach</dt><dd data-i18n="item.chatbot.approach">An AI chatbot on LINE OA for Aquatots Swimming School Pinkalo, connected to backend services and automated workflows</dd></div>
+              <div><dt data-i18n="work.outcome">Outcome</dt><dd data-i18n="item.chatbot.outcome">FAQs, service information and customer support answered automatically on the channel parents already use</dd></div>
             </dl>
-            <div class="work-tags"><span data-i18n="item.chatbot.t1">RAG</span><span data-i18n="item.chatbot.t2">Embeddings</span><span data-i18n="item.chatbot.t3">FastAPI</span></div>
+            <div class="work-tags"><span data-i18n="item.chatbot.t1">LINE OA</span><span data-i18n="item.chatbot.t2">RAG</span><span data-i18n="item.chatbot.t3">Automation</span></div>
           </div></div></div>
         </article>
 
@@ -253,8 +331,8 @@
           <div class="work-panel"><div><div class="work-detail">
             <dl>
               <div><dt data-i18n="work.role">Role</dt><dd data-i18n="item.seo.role">AI &amp; Technology Specialist</dd></div>
-              <div><dt data-i18n="work.approach">Approach</dt><dd data-i18n="item.seo.approach">Technical audit, answer-engine markup, structured data and a performance budget enforced in CI</dd></div>
-              <div><dt data-i18n="work.outcome">Outcome</dt><dd data-i18n="item.seo.outcome">Organic traffic up, cited inside AI answers, every landing page inside the Core Web Vitals budget</dd></div>
+              <div><dt data-i18n="work.approach">Approach</dt><dd data-i18n="item.seo.approach">Technical SEO, GEO and AEO audits, structured data and AI search intelligence tools for automated analysis</dd></div>
+              <div><dt data-i18n="work.outcome">Outcome</dt><dd data-i18n="item.seo.outcome">Better visibility and ranking trends for clients across Google and AI search, explained in plain reports</dd></div>
             </dl>
             <div class="work-tags"><span data-i18n="item.seo.t1">GEO</span><span data-i18n="item.seo.t2">AEO</span><span data-i18n="item.seo.t3">Schema.org</span></div>
           </div></div></div>
@@ -545,6 +623,51 @@
     </div>
   </section>
 
+  <!-- faq:start -->
+  <section class="panel" id="faq" data-od-id="faq-section">
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <span class="num">06</span>
+        <h2 data-i18n="faq.title">FAQ</h2>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary data-i18n="faq.q1">Who is Wuttiphong Butta (วุฒิพงษ์ บุตตา)?</summary>
+          <p data-i18n="faq.a1">Wuttiphong Butta (Thai: วุฒิพงษ์ บุตตา, nickname โพสต์อิท) is a software engineer in Bangkok, Thailand. He is a Computer Science graduate of Bangkok University (2026) and works as AI &amp; Technology Specialist at Give Education, building full-stack and AI systems.</p>
+        </details>
+        <details class="faq-item">
+          <summary data-i18n="faq.q2">What does Wuttiphong Butta build?</summary>
+          <p data-i18n="faq.a2">He builds production web apps and AI systems end to end: a billing and cash-tracking platform with QuickBooks sync for Aquatots Thailand, an AI OCR system for Thai invoices, a LINE OA chatbot, and QwenMythos, a 4B open-weight reasoning model. His stack includes React, Next.js, Node.js, FastAPI, Docker and AWS.</p>
+        </details>
+        <details class="faq-item">
+          <summary data-i18n="faq.q3">What is QwenMythos?</summary>
+          <p data-i18n="faq.a3">QwenMythos is a 4B-parameter open-weight reasoning model built by Wuttiphong Butta. It uses a looped (Recurrent-Depth) transformer fine-tuned from a Qwen base on a curated Thai reasoning dataset, and ships as safetensors and a Q4_K_M GGUF that runs locally with llama.cpp or Ollama.</p>
+        </details>
+        <details class="faq-item">
+          <summary data-i18n="faq.q4">What was the AI OCR project at Smarterware?</summary>
+          <p data-i18n="faq.a4">During his internship at Smarterware Co., Ltd. (a member of SAMART TELCOMS), Wuttiphong fine-tuned Typhoon OCR with LoRA adapters through Unsloth. The system reached 98.88% text-extraction accuracy on Thai invoices, cut manual processing time by 80%, and was deployed with FastAPI, Docker and AWS SageMaker.</p>
+        </details>
+        <details class="faq-item">
+          <summary data-i18n="faq.q5">What is Ruvion-Nok Daeng?</summary>
+          <p data-i18n="faq.a5">Ruvion-Nok Daeng is a startup founded by Wuttiphong Butta. Its website is ruvionnokdaeng.vercel.app.</p>
+        </details>
+        <details class="faq-item">
+          <summary data-i18n="faq.q6">Does Wuttiphong Butta offer SEO, GEO and AEO work?</summary>
+          <p data-i18n="faq.a6">Yes. He works as a freelance consultant on technical SEO, GEO (generative engine optimisation) and AEO (answer engine optimisation): audits, structured data and AI search intelligence tools. He takes freelance work through Fastwork and by email.</p>
+        </details>
+        <details class="faq-item">
+          <summary data-i18n="faq.q7">What is Wuttiphong Butta&#x27;s sports background?</summary>
+          <p data-i18n="faq.a7">He was a rising TaeKwonDo prospect with two national podiums (runner-up at the 33rd National Youth Games and the 35th Kanchanaburi Games) and 4th place at the Thailand Championship (cadet). A left-knee injury ended his shot at the national team. He later represented Bangkok University and Lopburi province in basketball, and coached alongside teams from Singapore, China and Taiwan.</p>
+        </details>
+        <details class="faq-item">
+          <summary data-i18n="faq.q8">How can I contact or hire Wuttiphong Butta?</summary>
+          <p data-i18n="faq.a8">Email wuttiphong4work@gmail.com, or reach him on LinkedIn (linkedin.com/in/wuttiphong-butta) or Fastwork. He is open to software engineering work on AI systems, platforms and web products.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+  <!-- faq:end -->
+
   <section class="panel contact" id="contact" data-od-id="contact-section">
     <div class="wrap">
       <p class="kicker" data-reveal data-i18n="contact.kicker">05 — Contact</p>
@@ -579,6 +702,7 @@
   </footer>
 
 <script src="assets/js/core.js" defer></script>
+<script src="assets/js/faq-i18n.js" defer></script>
 <script src="assets/js/i18n.js" defer></script>
 <script src="assets/js/site.js" defer></script>
 </body>

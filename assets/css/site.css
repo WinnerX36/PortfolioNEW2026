@@ -1150,3 +1150,14 @@ html[lang="th"] .story-body p, html[lang="th"] .story-lead{ line-height:1.9; }
 /* photos start under the "Projects" label, not under the project name */
 .exp-proj .strip-wrap{ margin-left:calc(-92px - 16px); }
 @media (max-width: 560px){ .exp-proj .strip-wrap{ margin-left:0; } }
+
+/* FAQ */
+.faq-list{ margin-top:34px; border-top:1px solid color-mix(in oklab, var(--border) 70%, transparent); }
+.faq-item{ border-bottom:1px solid color-mix(in oklab, var(--border) 70%, transparent); }
+.faq-item summary{ list-style:none; cursor:pointer; display:flex; justify-content:space-between; gap:16px; padding:20px 4px; font-size:17px; color:var(--fg); }
+.faq-item summary::-webkit-details-marker{ display:none; }
+.faq-item summary::after{ content:""; flex:none; width:8px; height:8px; margin-top:6px; border-right:2px solid var(--muted); border-bottom:2px solid var(--muted); transform:rotate(45deg); transition:transform 200ms var(--ease); }
+.faq-item[open] summary::after{ transform:translateY(3px) rotate(-135deg); }
+.faq-item summary:focus-visible{ outline:2px solid var(--accent); outline-offset:2px; }
+.faq-item p{ margin:0; padding:0 4px 22px; max-width:70ch; color:var(--muted); line-height:1.75; }
+html[lang="th"] .faq-item p{ line-height:1.9; }

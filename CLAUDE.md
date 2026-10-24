@@ -97,8 +97,8 @@ file, stop — edit the source that generates it.
 
 ## Commands
 ```bash
-<npm run dev>          # local preview
-<npm run build:prod>   # production build
+go run .                # local preview at http://127.0.0.1:8080 (restart after edits; files are embedded)
+python3 tools/build.py  # regenerate FAQ (from data/faq.json) and th/index.html (from index.html + i18n.js)
 ```
 
 ## Version control (Git) — your safety net

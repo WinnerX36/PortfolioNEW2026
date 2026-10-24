@@ -5,14 +5,15 @@
 ## Site
 - [Portfolio](https://wuttiphongbutta.netlify.app/): Work, experience, activities, sport, about and contact (English and Thai)
 - [About / TaeKwonDo story](https://wuttiphongbutta.netlify.app/about.html): Rising TaeKwonDo prospect, national-team shot lost to a left-knee injury
+- [Portfolio in Thai](https://wuttiphongbutta.netlify.app/th/): Thai version of the portfolio, with FAQ
 - [Full text](https://wuttiphongbutta.netlify.app/llms-full.txt): Full portfolio content for LLMs
 
 ## Projects
 - [QwenMythos](https://huggingface.co/Wuttiphong23/qwenmythos_Version_1.0): Self-trained 4.2B Recurrent-Depth open-weight LLM on a Thai reasoning dataset (OpenMythos), GGUF Q4_K_M, 262k context
-- AI OCR: Document intelligence that reads Thai and English invoices end to end
+- AI OCR: Typhoon OCR fine-tuned with LoRA; 98.88% accuracy on Thai invoices, 80% less manual processing time
 - STQ Orbit: Correction and validation layer in front of QuickBooks with automatic receipts
 - ORBIT Platform: Event-driven internal platform with a schema registry and typed SDK
-- AI Chatbot (RAG): Retrieval-augmented assistant with citations on every answer
+- AI Chatbot (RAG): LINE OA chatbot for Aquatots Swimming School Pinkalo answering FAQs and support questions
 - SEO · GEO · AEO: Search, generative and answer engine visibility work
 
 ## Experience

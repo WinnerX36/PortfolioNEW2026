@@ -135,9 +135,10 @@
 
   const savedLang = store.get(LANG_KEY);
   const browserLang = String(navigator.language || navigator.userLanguage || '').toLowerCase();
-  const initialLang = (savedLang === 'th' || savedLang === 'en')
+  const pageLang = document.documentElement.getAttribute('data-lang');
+  const initialLang = pageLang ? pageLang : ((savedLang === 'th' || savedLang === 'en')
     ? savedLang
-    : (browserLang.indexOf('th') === 0 ? 'th' : 'en');
+    : (browserLang.indexOf('th') === 0 ? 'th' : 'en'));
   window.PortfolioI18n.init();
   window.PortfolioI18n.apply(initialLang);
 })();
