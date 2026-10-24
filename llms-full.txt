@@ -1,0 +1,71 @@
+# Wuttiphong Butta — Software Engineer
+
+> Software engineer in Thailand building AI systems, internal platforms and web products — from the model behind the API to the interface people use. Status: open to work. Focus: AI, platform, web.
+
+Site: https://wuttiphongbutta.netlify.app/
+Email: wuttiphong4work@gmail.com
+Languages: English, Thai
+
+## Selected work
+
+### QwenMythos — self-trained open-weight LLM (2026)
+- Role: AI Engineer and model owner
+- Approach: Curated a Thai reasoning dataset (OpenMythos), fine-tuned a Qwen3.5 text base into a 4.2B Recurrent-Depth model, published safetensors weights and a Q4_K_M GGUF quantisation with a 262k context window.
+- Outcome: Open weights anyone can run locally through llama.cpp or Ollama, with the training method written up in Thai.
+- Model card: https://huggingface.co/Wuttiphong23/qwenmythos_Version_1.0
+- Files: https://huggingface.co/Wuttiphong23/qwenmythos_Version_1.0/tree/main
+
+### AI OCR — document intelligence (2026)
+- Role: AI Engineer
+- Approach: Layout detection before recognition; a fine-tuned vision model served behind a job queue.
+- Stack: PyTorch, CUDA, OCR
+
+### STQ Orbit — data pipeline to QuickBooks (2026)
+- Role: AI & Technology Specialist
+- Approach: A correction and validation layer in front of QuickBooks. Every record can be edited and checked before it syncs; receipts issue automatically once data passes.
+- Outcome: Accounting team spends up to 50% less time correcting data, filing receipts and chasing invoices.
+
+### ORBIT Platform — internal platform (2026)
+- Role: AI & Technology Specialist
+- Approach: Event-driven services, a schema registry and a typed SDK for every consumer.
+- Stack: TypeScript, Kubernetes, PostgreSQL
+
+### AI Chatbot (RAG) — retrieval-augmented assistant (2026)
+- Role: AI & Technology Specialist
+- Approach: Hybrid retrieval with a reranker and a citation attached to every answer.
+- Stack: RAG, embeddings, FastAPI
+
+### SEO · GEO · AEO — search, generative and answer engines (2026)
+- Role: AI & Technology Specialist
+- Approach: Technical audit, answer-engine markup, structured data, performance budget enforced in CI.
+
+## Work experience
+
+### Give Education and Aquatots Thailand — AI & Technology Specialist (2026, full-time)
+Education group and master developer of the Aqua-Tots Swim School franchise across Southeast Asia. Built ORBIT Platform, STQ Orbit, the RAG chatbot and the SEO, GEO and AEO work.
+
+### Smarterware Co., Ltd. — AI Engineer (Intern) (2026, Nonthaburi)
+https://www.smarterware.co.th/
+Worked on AI OCR. Smarterware is a CMMI Level 3 software engineering house certified to ITIL, ISO 27001 and ISO 9001.
+
+## Activities
+
+### H.O.W. — House of Wisdom, Bangkok (2026)
+https://www.howbangkok.com/
+Invitation-based private community of more than 300 leaders from 26 industries running closed-door learning sessions. Member as AI & Technology Specialist.
+
+### Bull's Arena — Team Givespace 2.0, Bangkok (2026)
+https://creativetalkconference.com/8-pitching-techniques-win-investors-bulls-arena/
+Project team inside H.O.W. Bull's Arena Pitching Day: eight ventures pitch to six national-level coaches and investors. Role: shaping the project, building the technology, helping the team ship.
+
+## Sport
+- TaeKwonDo — Chumporn-Ranong Youth Games (33rd National): runner-up, 2nd place
+- TaeKwonDo — Kanchanaburi Games (35th): runner-up, 2nd place
+- TaeKwonDo — Thailand Championship (Cadet): 4th place
+- University games Thammasat: represented Bangkok University
+- Basketball: provincial representative at village-level events
+- Assistant coach with teams from Singapore, China and Taiwan
+- Best athlete / MVP honours across provincial and national competitions
+
+## Skills
+Python, TypeScript, FastAPI, PyTorch, PostgreSQL, Docker, React, Next.js. Areas: AI and machine learning, backend and APIs, platform and DevOps, data and search, front-end and UX, SEO/GEO/AEO.

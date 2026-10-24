@@ -1,0 +1,19 @@
+# Wuttiphong Butta
+
+> Software engineer in Thailand building AI systems, internal platforms and web products. Open to work. Contact: wuttiphong4work@gmail.com
+
+## Site
+- [Portfolio](https://wuttiphongbutta.netlify.app/): Work, experience, activities, sport, about and contact (English and Thai)
+- [Full text](https://wuttiphongbutta.netlify.app/llms-full.txt): Full portfolio content for LLMs
+
+## Projects
+- [QwenMythos](https://huggingface.co/Wuttiphong23/qwenmythos_Version_1.0): Self-trained 4.2B Recurrent-Depth open-weight LLM on a Thai reasoning dataset (OpenMythos), GGUF Q4_K_M, 262k context
+- AI OCR: Document intelligence that reads Thai and English invoices end to end
+- STQ Orbit: Correction and validation layer in front of QuickBooks with automatic receipts
+- ORBIT Platform: Event-driven internal platform with a schema registry and typed SDK
+- AI Chatbot (RAG): Retrieval-augmented assistant with citations on every answer
+- SEO · GEO · AEO: Search, generative and answer engine visibility work
+
+## Experience
+- AI & Technology Specialist, Give Education and Aquatots Thailand (2026, full-time)
+- [AI Engineer (Intern), Smarterware Co., Ltd.](https://www.smarterware.co.th/) (2026, Nonthaburi)
