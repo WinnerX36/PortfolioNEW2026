@@ -1,0 +1,28 @@
+# Wuttiphong Butta (วุฒิพงษ์ บุตตา)
+
+> Thai software engineer. Computer Science, Bangkok University (2026). AI & Technology Specialist at Give Education and Aquatots Thailand. Former AI Engineer intern at Smarterware Co., Ltd.
+
+## Work
+- AI OCR: fine-tuned Typhoon OCR with LoRA (Unsloth) at Smarterware; 98.88% text-extraction accuracy on Thai and English invoices; FastAPI, Docker, AWS SageMaker.
+- ORBIT Platform: one internal platform replacing four separate tools. Demo: https://youtu.be/Roqlzw3cLno
+- STQ Orbit: corrects and validates accounting data before QuickBooks and issues receipts automatically.
+- AI Chatbot (RAG): LINE OA chatbot that answers with sources.
+- qwenmythos: 4B-parameter open-weights reasoning model, DoRA fine-tuning. https://huggingface.co/Wuttiphong23/qwenmythos_Version_1.0
+- SEO, GEO and AEO audits for freelance clients.
+
+## Sport
+- TaeKwonDo: second runner-up, 33rd National Youth Games (Chumphon-Ranong Games); second runner-up, 35th Kanchanaburi Games; first runner-up, Chula Open; 4th, Thailand Championship (cadet).
+- Represented Bangkok University at Thammasat University Games and Lopburi province in basketball.
+- Assistant TaeKwonDo coach with teams from Singapore, China and Taiwan. Best athlete (MVP) awards at provincial and national events.
+
+## Links
+- Portfolio: /
+- FAQ: /#faq
+- Resume (PDF): /assets/Resume_WuttiphongButta.pdf
+- GitHub: https://github.com/WinnerX36
+- LinkedIn: https://www.linkedin.com/in/wuttiphong-butta
+- Hugging Face: https://huggingface.co/Wuttiphong23
+- Fastwork (freelance): https://fastwork.com/th/user/wuttiphongbutta
+- JobsDB: https://th.jobsdb.com/th/profiles/wuttiphong-butta-jYYnBVmPZr
+- Facebook: https://www.facebook.com/wuttiphong.butta.2024/
+- Email: wuttiphong4work@gmail.com
