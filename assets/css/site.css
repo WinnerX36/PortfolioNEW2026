@@ -694,6 +694,34 @@ transition:transform 150ms var(--ease), color 150ms var(--ease);
   padding:5px 11px;
 }
 
+.exp-project-details{ margin-top:20px; }
+.exp-project-summary{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:16px;
+  padding:14px 0;
+  border-top:1px solid color-mix(in oklab, var(--border) 55%, transparent);
+  font-family:var(--font-mono);
+  font-size:12px;
+  color:var(--fg);
+  cursor:pointer;
+  list-style:none;
+}
+.exp-project-summary::-webkit-details-marker{ display:none; }
+.exp-project-summary::after{ content:'+'; font-size:20px; line-height:1; }
+.exp-project-details[open] > .exp-project-summary::after{ content:'−'; }
+.exp-project-summary:hover{ color:var(--accent); }
+.exp-project-summary:focus-visible{ outline:2px solid var(--accent); outline-offset:4px; }
+.exp-project-details > .exp-projects{ margin-top:0; }
+.exp-project-photo{ margin:20px 0 0; }
+.exp-project-photo img{
+  display:block;
+  width:100%;
+  height:auto;
+  border-radius:12px;
+}
+
 /* ---------- activities ---------- */
 
 .act-detail{
@@ -910,15 +938,6 @@ font-size:17px;
   transform:translateY(-1px);
 }
 .btn svg{ width:16px; height:16px; flex:none; }
-.contact-note{
-margin:22px 0 0;
-font-family:var(--font-mono);
-font-size:11px;
-letter-spacing:0.12em;
-text-transform:uppercase;
-color:var(--muted);
-}
-
 /* ---------- footer ---------- */
 
 footer{
@@ -1077,3 +1096,23 @@ html[lang="th"] :is(.work-detail dt,.work-tags span,.cap-list em,.contact-note,.
 html[lang="th"] :is(h1,h2,h3,p,li,dd,dt,span,a){ overflow-wrap:break-word; }
 html[lang="th"] .cap-list em{ overflow-wrap:anywhere; }
 html[lang="th"] .tool-row{ letter-spacing:0.04em; }
+
+/* ---------- Thai name + FAQ ---------- */
+
+.name-th{
+  margin:12px 0 0;
+  font-size:clamp(18px, 2.2vw, 24px);
+  color:var(--muted, inherit);
+}
+.faq-list{ margin-top:32px; border-top:1px solid var(--border); }
+.faq-item{ border-bottom:1px solid var(--border); }
+.faq-item summary{
+  cursor:pointer;
+  padding:18px 0;
+  font-weight:500;
+}
+.faq-item summary:focus-visible{ outline:2px solid var(--accent); outline-offset:4px; }
+.faq-item p{ margin:0 0 18px; max-width:68ch; }
+.contact-profiles{ margin-top:24px; }
+.sport-intro{ margin:24px 0 0; max-width:72ch; font-size:clamp(16px, 1.6vw, 18px); line-height:1.65; }
+html[lang="th"] .sport-intro{ line-height:1.8; }

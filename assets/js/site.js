@@ -90,3 +90,21 @@
   window.PortfolioI18n.init();
   window.PortfolioI18n.apply(initialLang);
 })();
+
+// FAQPage JSON-LD, built from the visible FAQ so the answers live in one place.
+(function(){
+  const items = document.querySelectorAll('#faq .faq-item');
+  if(!items.length) return;
+  const ld = document.createElement('script');
+  ld.type = 'application/ld+json';
+  ld.textContent = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: Array.prototype.map.call(items, (el) => ({
+      '@type': 'Question',
+      name: el.querySelector('summary').textContent.trim(),
+      acceptedAnswer: { '@type': 'Answer', text: el.querySelector('p').textContent.trim() }
+    }))
+  });
+  document.head.appendChild(ld);
+})();

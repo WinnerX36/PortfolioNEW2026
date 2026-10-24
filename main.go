@@ -21,7 +21,7 @@ import (
 	"time"
 )
 
-//go:embed index.html assets
+//go:embed index.html robots.txt llms.txt assets
 var content embed.FS
 
 func main() {
