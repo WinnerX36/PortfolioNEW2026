@@ -1133,7 +1133,7 @@ html[lang="th"] .story-body p, html[lang="th"] .story-lead{ line-height:1.9; }
 .exp-main, .exp-projects-list, .exp-proj{ min-width:0; }
 .exp-proj{ max-width:100%; }
 /* strip arrows (desktop) */
-.strip-wrap{ position:relative; }
+.strip-wrap{ position:relative; flex:1 0 100%; min-width:0; max-width:100%; }
 .strip-btn{
   position:absolute; top:calc(50% - 5px); transform:translateY(-50%);
   width:36px; height:36px; border-radius:50%; border:1px solid var(--border);
@@ -1161,3 +1161,12 @@ html[lang="th"] .story-body p, html[lang="th"] .story-lead{ line-height:1.9; }
 .faq-item summary:focus-visible{ outline:2px solid var(--accent); outline-offset:2px; }
 .faq-item p{ margin:0; padding:0 4px 22px; max-width:70ch; color:var(--muted); line-height:1.75; }
 html[lang="th"] .faq-item p{ line-height:1.9; }
+/* mobile: single column that can shrink, so photo strips scroll instead of overflowing */
+@media (max-width: 560px){
+  .exp-item, .act-item, .sport-item, .exp-projects, .act-detail{ grid-template-columns:minmax(0,1fr); }
+  .sport-item{ gap:12px; padding:24px 4px 28px; }
+  .act-main, .sport-main{ min-width:0; }
+}
+/* hero glow bleeds 40px past the edge; clip it so phones get no sideways scroll */
+.hero{ overflow-x:clip; }
+html{ overflow-x:clip; }
